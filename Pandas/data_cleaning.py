@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
 df = pd.read_csv("Pandas\data.csv")
 
@@ -22,3 +23,11 @@ df.drop_duplicates(inplace=True)
 ############# Printing final result ################
 print(df.to_string())
 print("The final dimension of the dataset: " , df.shape)
+
+############# Correlation ##########################
+print(df.corr())
+
+############# Plotting #############################
+df.plot(kind = 'scatter', x = 'Duration', y = 'Calories')
+plt.show()
+
