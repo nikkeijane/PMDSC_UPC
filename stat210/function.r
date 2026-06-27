@@ -1,4 +1,3 @@
-hello <- function() {
-	print("Hello world")
+greet <- function(honorific, name) {
+	cat("Hi ", honorific, name, "\n")
 }
-
