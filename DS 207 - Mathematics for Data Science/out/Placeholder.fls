@@ -1,0 +1,21 @@
+PWD c:/Users/ASUS VivoBook/OneDrive/Documents/pmdsc/DS 207 - Mathematics for Data Science
+INPUT c:/texlive/2026/texmf.cnf
+INPUT c:/texlive/2026/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/ASUS VivoBook/OneDrive/Documents/pmdsc/DS 207 - Mathematics for Data Science/Placeholder.tex
+OUTPUT out/Placeholder.log
+INPUT c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2026/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2026/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2026/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT out/Placeholder.aux
+INPUT out/Placeholder.aux
+INPUT out/Placeholder.aux
+OUTPUT out/Placeholder.aux
+OUTPUT out/Placeholder.pdf
+INPUT c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT out/Placeholder.aux
+INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
