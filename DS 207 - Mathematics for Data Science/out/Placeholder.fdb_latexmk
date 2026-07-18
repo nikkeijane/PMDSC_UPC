@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1784262897.49424 "c:/Users/ASUS VivoBook/OneDrive/Documents/pmdsc/DS 207 - Mathematics for Data Science/Placeholder.tex" "out/Placeholder.pdf" "Placeholder" 1784262898.78024 0
-  "Placeholder.tex" 1784262859 93 e01acd1159b76e912fd297c82e55826e ""
-  "c:/Users/ASUS VivoBook/OneDrive/Documents/pmdsc/DS 207 - Mathematics for Data Science/Placeholder.tex" 1784262859 93 e01acd1159b76e912fd297c82e55826e ""
+["pdflatex"] 1784263344.64909 "c:/Users/ASUS VivoBook/OneDrive/Documents/pmdsc/DS 207 - Mathematics for Data Science/Placeholder.tex" "out/Placeholder.pdf" "Placeholder" 1784263345.71357 0
+  "Placeholder.tex" 1784263343 109 44a35a00d950a5e3936d716e3b7fde13 ""
+  "c:/Users/ASUS VivoBook/OneDrive/Documents/pmdsc/DS 207 - Mathematics for Data Science/Placeholder.tex" 1784263343 109 44a35a00d950a5e3936d716e3b7fde13 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1782666424 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2026/texmf-dist/tex/latex/base/article.cls" 1782707856 20144 e6010938fb17dfbae90a243ad7cf351d ""
   "c:/texlive/2026/texmf-dist/tex/latex/base/size10.clo" 1782707856 8448 f7d8bfe7b7a3986fbf9022b21b7800cc ""
@@ -10,7 +10,7 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1782722073 5619402 ad1310ccf7f36101ef3e8f014a173c46 ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1782722275 3656536 e687c4b8c57fec43e8794ff36da5a443 ""
   "c:/texlive/2026/texmf.cnf" 1782721966 713 e69b156964470283e0530f5060668171 ""
-  "out/Placeholder.aux" 1784262898 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "out/Placeholder.aux" 1784263345 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   (generated)
   "out/Placeholder.aux"
   "out/Placeholder.log"
