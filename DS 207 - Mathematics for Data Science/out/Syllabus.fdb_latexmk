@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1784461201.97515 "c:/Users/ASUS VivoBook/OneDrive/Documents/pmdsc/DS 207 - Mathematics for Data Science/Syllabus.tex" "out/Syllabus.pdf" "Syllabus" 1784461203.36847 0
-  "Syllabus.tex" 1784461155 1457 43585b43ceff73510f2518db3683b823 ""
-  "c:/Users/ASUS VivoBook/OneDrive/Documents/pmdsc/DS 207 - Mathematics for Data Science/Syllabus.tex" 1784461155 1457 43585b43ceff73510f2518db3683b823 ""
+["pdflatex"] 1785049081.10602 "c:/Users/ASUS VivoBook/OneDrive/Documents/pmdsc/DS 207 - Mathematics for Data Science/Syllabus.tex" "out/Syllabus.pdf" "Syllabus" 1785049082.01532 0
+  "Syllabus.tex" 1785049043 1457 43585b43ceff73510f2518db3683b823 ""
+  "c:/Users/ASUS VivoBook/OneDrive/Documents/pmdsc/DS 207 - Mathematics for Data Science/Syllabus.tex" 1785049043 1457 43585b43ceff73510f2518db3683b823 ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1782677449 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1782672431 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1782672431 1288 655e228510b4c2a1abe905c368440826 ""
@@ -14,7 +14,7 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1782722073 5619402 ad1310ccf7f36101ef3e8f014a173c46 ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1782722275 3656536 e687c4b8c57fec43e8794ff36da5a443 ""
   "c:/texlive/2026/texmf.cnf" 1782721966 713 e69b156964470283e0530f5060668171 ""
-  "out/Syllabus.aux" 1784461203 544 ce6c6fd714571a6433cfb3b73425fbe1 "pdflatex"
+  "out/Syllabus.aux" 1785049081 544 ce6c6fd714571a6433cfb3b73425fbe1 "pdflatex"
   (generated)
   "out/Syllabus.aux"
   "out/Syllabus.log"
