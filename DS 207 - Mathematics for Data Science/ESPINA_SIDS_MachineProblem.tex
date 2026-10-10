@@ -1,0 +1,96 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem} 
+\usepackage{graphicx}
+\setlength{\parindent}{2em}   % indent size
+\setlength{\parskip}{1em}     % space between paragraphs
+
+
+\begin{document}
+\noindent Nikkei Jane Espina \hfill July 22, 2026
+
+
+\section*{I. Exploratory Data Analysis}
+
+\begin{itemize}[label=$\rightarrow$]
+    \item Display the structure and summary of the dataset.
+    \item Create a scatterplot of speed and dist.
+    \item Briefly describe the relationship using correlation analysis.
+\end{itemize}
+
+ 
+The dataset contains 50 observations of two numeric variables: speed (mph) and stopping distance (ft). Speeds range from 4 to 25 mph with an average of 15.4, while stopping distances range from 2 to 120 ft with an average of 43.  
+
+\includegraphics[width=0.5\textwidth]{str(cars).png}
+%\includegraphics[width=0.25\textwidth]{C:\Users\ASUS VivoBook\OneDrive\Documents\pmdsc\DS 207 - Mathematics for Data Science\images\summary(cars).png}
+
+\bigskip
+
+A scatterplot of speed versus stopping distance shows a clear upward trend, suggesting that higher speeds are associated with longer stopping distances.  
+
+%\includegraphics[width=0.7\textwidth]{graph.png}
+
+\bigskip
+
+\newpage 
+Pearson’s correlation coefficient indicates a strong positive relationship (\(r \approx 0.81, p < 0.001\)). This means faster cars require longer stopping distances, and the relationship is statistically significant. The regression line in the scatterplot visually supports this finding.  
+
+%\includegraphics[width=0.5\textwidth]{correlation analysis.png}
+
+\newpage
+\section*{II. Parameter Estimation}
+\begin{itemize}[label=$\rightarrow$]
+    \item Fit the model:
+    \item Report and interpret:
+        \begin{itemize}
+            \item intercept
+            \item slope
+            \item p-value
+            \item $R^2$
+        \end{itemize}
+\end{itemize}
+
+\bigskip
+%\includegraphics[width=0.5\textwidth]{simple_model.png}
+
+\bigskip
+
+The fitted regression equation is $\hat{dist} = -17.58 + 3.93 \cdot speed$. The intercept of $-17.58$ serves as the baseline, while the slope of $3.93$ indicates that each 1 mph increase in speed adds about 3.9 ft to stopping distance. The slope is highly significant with a p-value less than 0.001, and the coefficient of determination $R^2 \approx 0.65$ shows that speed explains about 65\% of the variation in stopping distance, confirming a strong positive relationship.
+
+
+
+\newpage
+\section*{III. Diagnostic Analysis}
+\begin{itemize}[label=$\rightarrow$]
+    \item Produce the standard regression diagnostic plots:
+    \item Comment briefly on:
+        \begin{itemize}
+            \item linearity
+            \item normality of residuals
+            \item constant variance
+            \item influential observations
+        \end{itemize}
+\end{itemize}
+
+
+\bigskip
+%\includegraphics[width=0.9\textwidth]{plot(simple_model).png}
+
+\bigskip
+
+The regression diagnostics suggest that the assumptions are largely met. The Residuals vs Fitted plot shows no clear systematic pattern, supporting the linearity assumption. The Q-Q plot indicates that residuals are approximately normal, with only minor deviations in the upper tail. The Scale-Location plot points to slight heteroscedasticity, as variance increases somewhat at higher fitted values. The Residuals vs Leverage plot does not reveal any extreme influential points, though cases 23, 35, and 49 may deserve closer attention. Overall, the regression fit appears adequate, with only modest departures from ideal conditions.
+
+
+\newpage
+
+\section*{IV. Conclusion}
+
+\indent  Speed is a statistically significant predictor of stopping distance, as shown by the highly significant slope (p-value $< 0.001$). The fitted regression equation $\hat{dist} = -17.58 + 3.93 \cdot speed$ explains about 65\% of the variation in stopping distance ($R^2 \approx 0.65$), indicating a strong positive relationship between the two variables. Diagnostic checks suggest that the assumptions of linear regression are generally satisfied, with only minor deviations in normality and variance. 
+
+\indent Overall, the fitted model is appropriate and provides strong evidence that higher speeds are associated with longer stopping distances. While the intercept is not physically meaningful, the slope offers a clear and practical interpretation: each additional mile per hour of speed increases stopping distance by nearly four feet. The model is therefore useful for understanding and predicting stopping distances, though caution should be taken at extreme values where variability increases. Observations flagged in the diagnostic analysis may warrant closer inspection, but they do not undermine the overall adequacy of the regression fit. This analysis highlights the importance of speed as a critical factor in vehicle safety and reinforces the predictive value of linear regression in explaining real-world phenomena.
+
+
+
+
+
+\end{document}
